@@ -1,5 +1,5 @@
 # Simplot
-C Header library to print C functions as ASCII graph.
+C Header library to print C functions to a ASCII graph.
 
 Include the library like so.
 ```c
@@ -21,7 +21,7 @@ double f(double x) {
 }
 ```
 
-Define the X range, you range is automatically calculated. Based on the lowest and highest value the function produces in the range. Also provide output symbol- width and height.
+Define the X range, Y range is automatically calculated based on the lowest and highest value the function produces in the range. Lastly, provide output symbol- width and height.
 ```c
 int main(void) {
     uint16_t screen[2] = {120, 30};
